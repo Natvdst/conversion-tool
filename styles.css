@@ -1,0 +1,71 @@
+/* body {
+  background-color: rgb(199, 186, 186);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(32, 30, 30);
+}
+
+h1 {
+  color: rgb(66, 48, 25);
+} */
+
+body {
+  background-color: #191719;
+  text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  padding: 1.5rem 0;
+  font-size: 4rem;
+}
+
+div.output {
+    margin: 0 auto;
+    text-align: center;
+    
+    width: 20rem;
+    height: 80rem;
+    background-color: rgb(155, 135, 78);
+
+    
+
+}
+/* 
+select, input, button {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+} */
+
+#result {
+  background-color: bisque;
+  color:#191719;
+  text-align: center;
+  margin: 0 auto;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 24rem;
+  height: 3rem;
+
+  
+}
+
+#convertBtn {
+  width: 5rem;
+  height: 2rem;
+  color: rgb(28, 32, 32);
+  background-color: bisque;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+#conversionType {
+  background-color: bisque;
+  font-size: 2rem;
+}
+
+#inputValue {
+  background-color: bisque;
+  width: 6rem;
+}

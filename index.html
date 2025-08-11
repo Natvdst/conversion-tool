@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="convert.js"></script>
+    <title>Conversion Tool</title>
+</head>
+<body>
+    <h1>Conversion tool</h1>
+
+   
+
+<label for="conversionType">Choose conversion:</label>
+<select id="conversionType">
+  <option value="celsToFahrenheit">Celsius to Fahrenheit</option>
+  <option value="fahrenheitToCels">Fahrenheit to Celsius</option>
+  <option value="kilometerToMiles">Kilometer to Miles</option>
+  <option value="hoursToSeconds">Hours to Seconds</option>
+</select>
+
+<br> <br>
+<div>Enter amount <br> you want to convert:<input type="number" id="inputValue" placeholder="Enter value" /></div>
+<br><br>
+
+
+<button id="convertBtn" onclick="printResult()">Convert</button>
+<br>
+<br>
+<br>
+
+ <div type="result" id="result">Result:
+        
+    </div>
+    
+</body>
+</html>
